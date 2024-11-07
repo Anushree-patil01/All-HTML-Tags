@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tags Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        p {
+            color: #555;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>HTML Tags Demonstration</h1>
+            <p>This page showcases various HTML tags and their usage.</p>
+        </header>
+
+        <section>
+            <h2>Text Formatting</h2>
+            <p>This is a <strong>strong</strong> text example. This is an <em>emphasized</em> text example.</p>
+            <p><u>This is underlined text</u> and this is <mark>highlighted text</mark>.</p>
+            <p>Check out this <code>&lt;code&gt;</code> block in the middle of a paragraph.</p>
+        </section>
+
+        <section>
+            <h2>Links and Lists</h2>
+            <p>Here is an example of a link: <a href="https://www.example.com" target="_blank">Visit Example</a></p>
+            <ul>
+                <li>Unordered list item 1</li>
+                <li>Unordered list item 2</li>
+                <li>Unordered list item 3</li>
+            </ul>
+            <ol>
+                <li>Ordered list item 1</li>
+                <li>Ordered list item 2</li>
+                <li>Ordered list item 3</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Images</h2>
+            <p>Below is an image of a cat:</p>
+            <img src="https://placekitten.com/400/300" alt="Cute kitten" style="width: 100%; max-width: 400px;">
+        </section>
+
+        <section>
+            <h2>Tables</h2>
+            <table border="1" cellpadding="8" cellspacing="0">
+                <caption>Sample Table</caption>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>City</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John</td>
+                        <td>30</td>
+                        <td>New York</td>
+                    </tr>
+                    <tr>
+                        <td>Jane</td>
+                        <td>25</td>
+                        <td>Los Angeles</td>
+                    </tr>
+                    <tr>
+                        <td>Mary</td>
+                        <td>28</td>
+                        <td>Chicago</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Forms</h2>
+            <form action="#" method="POST">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" placeholder="Write your message here"></textarea><br><br>
+
+                <label for="gender">Gender:</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br><br>
+
+                <label for="newsletter">Subscribe to Newsletter:</label>
+                <input type="checkbox" id="newsletter" name="newsletter" value="yes"><br><br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Embedded Content</h2>
+            <p>Here is an embedded video:</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </section>
+
+        <section>
+            <h2>Blockquote</h2>
+            <blockquote>
+                <p>"The only limit to our realization of tomorrow is our doubts of today." – Franklin D. Roosevelt</p>
+            </blockquote>
+        </section>
+
+        <section>
+            <h2>Audio and Video</h2>
+            <p>Listen to this audio clip:</p>
+            <audio controls>
+                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+            <p>Watch this video:</p>
+            <video width="320" height="240" controls>
+                <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <footer>
+            <p>Created by Your Name</p>
+            <address>
+                You can contact me at <a href="mailto:someone@example.com">someone@example.com</a>
+            </address>
+        </footer>
+    </div>
+
+</body>
+
+</html>
